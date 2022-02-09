@@ -1,0 +1,47 @@
+:root{
+	--primary: whitesmoke;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	    background-image:url(../img/c2.jpg);
+		color: whitesmoke;
+		size: 21px;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+.flex{
+	display: flex;
+}
+.logo{
+	flex-basis: 30%;
+}
+nav{
+	flex-basis: 70%;
+}
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+    list-style: none;
+}
+
+header nav a{
+	color: brown;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 8px;
+}
+
+header nav a:hover{
+	color: var(--primary);
+}
+header . logo a{
+        color: var(--primary);
+}
+
+
